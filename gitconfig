@@ -1,0 +1,23 @@
+[color]
+        ui = auto
+[alias]
+# Regular commands.
+        br = branch 
+        ch = checkout
+        co = commit
+        cp = cherry-pick
+        di = diff
+        fe = fetch
+        re = rebase
+        rei = rebase -i
+        sh = show
+        st = status
+        # Pretty log. 
+        logp = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        # My commits in a pretty format. 
+        logpm = log --author=abhishekbh --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = Abhishek Bhardwaj
+	email = abhishekbhardwaj007@gmail.com
+[push]
+	default = simple
