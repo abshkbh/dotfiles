@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/usr/local/google/home/abhishekbh/.vim/plugin'
+let g:netrw_dirhist_2='/usr/local/google/home/abhishekbh/projects/mnc-dr-ryu-release/mnc-dr-ryu-release/.repo'
+let g:netrw_dirhist_3='/usr/local/google/home/abhishekbh/.config'
+let g:netrw_dirhist_4='/usr/local/google/home/abhishekbh/projects/mnc-dr-arc-dev/frameworks/base/services/core/jni'
+let g:netrw_dirhist_5='/usr/local/google/home/abhishekbh/projects/mnc-dr-arc-dev/.repo/manifests.git'
+let g:netrw_dirhist_6='/usr/local/google/home/abhishekbh/projects/mnc-dr-arc-dev/device/google/cheets/arcbridge/libarcbridge'
+let g:netrw_dirhist_7='/usr/local/google/home/abhishekbh/.ssh'
+let g:netrw_dirhist_8='/usr/local/google/home/abhishekbh/projects/chromium/src/components/arc/net'

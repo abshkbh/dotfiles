@@ -1,0 +1,27 @@
+[color]
+        ui = auto
+[alias]
+# Regular commands.
+        br = branch 
+        ch = checkout
+        co = commit
+        di = diff
+        fe = fetch
+        re = rebase
+        rei = rebase -i
+        sh = show
+        st = status
+# Meta commands.
+        # Pure Diff Branches. 
+        pdb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+        # Logical Diff Branches. 
+        ldb = log --left-right --graph --cherry-mark --oneline
+        # Pretty log. 
+        logp = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        # My commits in a pretty format. 
+        logpm = log --author=abhishekbh --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = simple
+[user]
+	email = abshkbh@gmail.com
+	name = Abhishek Bhardwaj
